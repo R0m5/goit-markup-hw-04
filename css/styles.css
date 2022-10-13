@@ -560,12 +560,13 @@ img {
 .footer-social .social-items {
   fill: var(--accent-color);
 }
-.social-icon:not(:nth-child(4n)) {
+.social-icon2:not(:nth-child(4n)) {
   margin-right: 10px;
 }
-/* .social-list2 .social-icon:not(:nth-child(4n)) {
-  margin-right: 30px;
-} */
+.social-items:hover,
+.social-items:focus {
+  background-color: var(--navigation-color);
+}
 
 /* Portfolio*/
 
